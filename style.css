@@ -38,7 +38,7 @@ body {
   font-family: arial, sans-serif;
   line-height: 25px;
   font-size: 14px;
-  background: url('../images/bg.png') repeat-x;
+  background: url('http://ucbugg.github.io/learn.ucbugg/images/bg.png') repeat-x;
 }
 #wrapper {
   margin: 0 auto;
