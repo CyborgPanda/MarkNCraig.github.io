@@ -7,6 +7,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Labs/storyandart.html",
+			"settings":
+			{
+				"buffer_size": 5995,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -32,9 +40,9 @@
 	},
 	"file_history":
 	[
-		"/home/cc/cs198/fa14/class/cs198-ia/Desktop/MarkNCraig.github.io/Art and Story/index.html",
-		"/home/cc/cs198/fa14/class/cs198-ia/Desktop/MarkNCraig.github.io/Art and Story/Labs/storyboarding.html",
 		"/home/cc/cs198/fa14/class/cs198-ia/Desktop/MarkNCraig.github.io/Art and Story/Labs/storyandart.html",
+		"/home/cc/cs198/fa14/class/cs198-ia/Desktop/MarkNCraig.github.io/Art and Story/Labs/storyboarding.html",
+		"/home/cc/cs198/fa14/class/cs198-ia/Desktop/MarkNCraig.github.io/Art and Story/index.html",
 		"/home/cc/cs198/fa14/class/cs198-ia/Desktop/MarkNCraig.github.io/Art and Story/Labs/finalconceptart.html",
 		"/home/cc/cs198/fa14/class/cs198-ia/Desktop/MarkNCraig.github.io/Art and Story/Labs/environmentdesign.html",
 		"/home/cc/cs198/fa14/class/cs198-ia/Desktop/MarkNCraig.github.io/Art and Story/Labs/characterdesign.html",
@@ -74,8 +82,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Labs/storyandart.html",
+					"settings":
+					{
+						"buffer_size": 5995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5063,
+								5063
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1079.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
