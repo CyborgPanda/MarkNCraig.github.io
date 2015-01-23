@@ -42,11 +42,12 @@
     <div id="contents" style="background-color: #f9f9f9; border: 1px grey; border-style: solid; width: 300px; padding: 5px;">
       <h5>Contents</h5>
       <ul style="margin-bottom:0">
-        <li><a href="#overview">Setting up Maya</a></li>
+        <li><a href="#settingupmaya">Setting up Maya</a></li>
         <ul style="margin-bottom:0;">
+          <li><a href="#launch_maya"></a>
+          <li><a href="#settingproject">Creating a Maya Project</a></li>
           <li><a href="#infiniteundo">Enabling infinite Undo</a></li>
-          <li><a href="#settingproject">Setting up a Project folder</a></li>
-          <li><a href="#autosave">Thinking about your Art Style</a></li>
+          <li><a href="#autosave">Enabling Auto Save</a></li>
         </ul>
         <li><a href="#assignment">Assignment</a></li>
         <li><a href="#examples">Examples</a></li>
@@ -60,19 +61,23 @@
     <p></p>
 
     <p>Welcome to the first UCBUGG lab exercise. We will be covering the basics of Maya in the following pages.</p>
-    <h2 id="configure_os_x__launch_maya">Setting up Maya</h2>
-    <p>If you are not using a Mac Pro in the CITRUS lab, feel free to skip this section. </p>
-    <h3 id="launch_maya">Launch Maya</h3>
-    <p>The simplest way to launch Maya is to click the Spotlight icon in the upper right, type "Maya", and click on the Maya menu item.</p>
+    <h2 id="settingupmaya">Setting up Maya</h2>
+    <h3 id="launch_maya">Launching Maya on a Lab Computer</h3>
+    <p>The simplest way to launch Maya on one of the Mac Pros in the 200 SDH lab is to click the Spotlight icon in the upper right, type "Maya", and click on the Maya menu item.</p>
     <p><img alt="Open Maya" src="../images/introduction-to-maya/intro_to_maya_openmaya.png" /></p>
     <p>If spotlight isn't working, open up Finder, select Applications in the left bar, and Navigate to <strong>Autodesk &rarr; maya2011 &rarr; Maya</strong>. </p>
-    <h2 id="enable_infinite_undo">Enable Infinite Undo</h2>
-    <p>When learning Maya, you're going to make mistakes (no matter how good you are). Pressing <strong>Z</strong> will undo your last move in Maya. By default, Maya only lets you undo a certain number of moves. To enable infinite undo, Select <strong>Windows &rarr; Settings/Preferences &rarr; Preferences</strong>. Select the <strong>Undo</strong> menu from the side bar and change the Queue to Infinite. </p>
     <p><img alt="Open Maya" src="../images/introduction-to-maya/undo.jpg" /></p>
-    <h2 id="creating_a_maya_project">Creating a Maya Project</h2>
+    <h2 id="settingproject">Creating a Maya Project</h2>
     <p>Even the smallest 3d animations can involve dozens of files.  Without some way of organizing them, things can quickly get messy and unmanageable.  That's why it's important to create a <strong>project</strong>.<br />
     </p>
     <p>To create a new project, navigate to <strong>File &rarr; Project &rarr; New...</strong> which will open the "New Project" dialog window.  Name your project (YourFirstName)-UCBUGG-Lab.  Before saving, fill in the "Scenes", "Images", and "Source Images" project locations with "scenes", "images", and "sourceimages" respectively. Once you've done that, <strong>save the project somewhere in your home directory</strong>. You will be using different lab machines, so make sure to save it in your home directory. If you aren't sure where your home directory is, ask a facilitator. </p>
+    <h2 id="infiniteundo">Enable Infinite Undo</h2>
+    <p>When learning Maya, you're going to make mistakes (no matter how good you are). Pressing CMD + <strong>Z</strong> will undo your last move in Maya. By default, Maya only lets you undo a certain number of moves. To enable infinite undo, Select <strong>Windows &rarr; Settings/Preferences &rarr; Preferences</strong>. Select the <strong>Undo</strong> menu from the side bar and change the Queue to Infinite. Leave this window open, because there's another setting you should change....</p>
+    <h2 id="autosave">Enable Autosave</h2>
+    <p>Maya is a very powerful program, but it is prone to bugs, including seemingly random crashing. You should make a habit of saving often, but there will
+    be a point where you inevitably forget, and when that happens you'll wish you had a time machine so you could go back and thank yourself for what you're about to do right now. In the same Settings window that you opened before, click on the <Strong>Files/Projects</Strong> menu and under the box that says <Strong> Autosave</Strong> click checkbox labeled <strong>enable</strong>.
+
+
     <p><img alt="project" src="../images/introduction-to-maya/img_002_project.png" /></p>
     <h2 id="interface">Interface</h2>
     <p>Now that you've created a project, it's time to introduce you to Maya's interface. It may look really complicated at first, but don't worry! This tutorial should give you a good overview of what everything is. </p>
