@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Labs/storyandart.html",
-			"settings":
-			{
-				"buffer_size": 5995,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -27,7 +19,10 @@
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 0.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -38,8 +33,13 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/cc/cs198/fa14/class/cs198-ia/Desktop/MarkNCraig.github.io/Art and Story"
+	],
 	"file_history":
 	[
+		"/C/Users/Mark/Documents/MarkNCraig.github.io/Art and Story/Labs/storyandart.html",
 		"/home/cc/cs198/fa14/class/cs198-ia/Desktop/MarkNCraig.github.io/Art and Story/Labs/storyandart.html",
 		"/home/cc/cs198/fa14/class/cs198-ia/Desktop/MarkNCraig.github.io/Art and Story/Labs/storyboarding.html",
 		"/home/cc/cs198/fa14/class/cs198-ia/Desktop/MarkNCraig.github.io/Art and Story/index.html",
@@ -82,37 +82,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Labs/storyandart.html",
-					"settings":
-					{
-						"buffer_size": 5995,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5063,
-								5063
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1079.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -147,6 +118,11 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Art and Story.sublime-project",
 	"replace":
 	{
 		"height": 0.0
@@ -168,10 +144,25 @@
 		],
 		"width": 0.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 190.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
