@@ -40,11 +40,17 @@
           <li><a href="#infiniteundo">Enabling infinite Undo</a></li>
           <li><a href="#autosave">Enabling Auto Save</a></li>
         </ul>
-        <li><a href="#assignment">Assignment</a></li>
-        <li><a href="#examples">Examples</a></li>
-        <ul style="margin-bottom:0;">
-          <li><a href="#storypitches">Story Pitches</a></li>
-          <li><a href="#storydiagrams">Story Diagrams</a></li>
+        <li><a href="#assignment">Interface</a></li>
+          <ul style="margin-bottom:0;">
+          <li><a href="#dropdown">Dropdown Menu</a>
+          <li><a href="#shelf">The Shelf</a></li>
+          <li><a href="#toolbox">The Toolbox</a></li>
+        </ul>
+        <li><a href="#assignment">Creating and Manipulating Objects</a></li>
+          <ul style="margin-bottom:0;">
+          <li><a href="#create">Creating an Object</a>
+          <li><a href="#manipulate">Manipulating an Object</a></li>
+          <li><a href="#channel">The Channel Box</a></li>
         </ul>
         <li><a href="#references">References</a></li>
       </ul>
@@ -53,22 +59,23 @@
     <h2 id="settingupmaya">Setting up Maya</h2>
     <h3 id="launch_maya">Launching Maya on a Lab Computer</h3>
     <p>The simplest way to launch Maya on one of the Mac Pros in the 200 SDH lab is to click the Spotlight icon in the upper right, type "Maya", and click on the Maya menu item.</p>
-    <p><img alt="Open Maya" src="../images/introduction-to-maya/intro_to_maya_openmaya.png" /></p>
+    <p><img alt="Open Maya" src="http://ucbugg.github.io/learn.ucbugg/images/introduction-to-maya/intro_to_maya_openmaya.png" /></p>
     <p>If spotlight isn't working, open up Finder, select Applications in the left bar, and Navigate to <strong>Autodesk &rarr; maya2011 &rarr; Maya</strong>. </p>
-    <p><img alt="Open Maya" src="../images/introduction-to-maya/undo.jpg" /></p>
-    <h3 id="settingproject">Creating a Maya Project</h2>
-    <p>Even the smallest 3d animations can involve dozens of files.  Without some way of organizing them, things can quickly get messy and unmanageable.  That's why it's important to create a <strong>project</strong>.<br />
+    <p><img alt="Undo" src="http://ucbugg.github.io/learn.ucbugg/images/introduction-to-maya/undo.jpg" /></p>
+    <h3 id="settingproject">Creating a Maya Project</h3>
+    <p>Even the smallest 3d animations can involve dozens of files.  Without some way of organizing them, things can quickly get messy and unmanageable.  That's why it's important to create a <strong>project</strong>
     </p>
     <p>To create a new project, navigate to <strong>File &rarr; Project &rarr; New...</strong> which will open the "New Project" dialog window.  Name your project (YourFirstName)-UCBUGG-Lab.  Before saving, fill in the "Scenes", "Images", and "Source Images" project locations with "scenes", "images", and "sourceimages" respectively. Once you've done that, <strong>save the project somewhere in your home directory</strong>. You will be using different lab machines, so make sure to save it in your home directory. If you aren't sure where your home directory is, ask a facilitator. </p>
-    <h3 id="infiniteundo">Enable Infinite Undo</h2>
+    <p><img alt="New Project" src="http://ucbugg.github.io/learn.ucbugg/images/introduction-to-maya/img_002_project.png" /></p>
+    <h3 id="infiniteundo">Enable Infinite Undo</h3>
     <p>When learning Maya, you're going to make mistakes (no matter how good you are). Pressing CMD + <strong>Z</strong> will undo your last move in Maya. By default, Maya only lets you undo a certain number of moves. To enable infinite undo, Select <strong>Windows &rarr; Settings/Preferences &rarr; Preferences</strong>. Select the <strong>Undo</strong> menu from the side bar and change the Queue to Infinite. Leave this window open, because there's another setting you should change....</p>
-    <h3 id="autosave">Enable Autosave</h2>
+    <h3 id="autosave">Enable Autosave</h3>
     <p>Maya is a very powerful program, but it is prone to bugs, including seemingly random crashing. You should make a habit of saving often, but there will
     be a point where you inevitably forget, and when that happens you'll wish you had a time machine so you could go back and thank yourself for what you're about to do right now. In the same Settings window that you opened before, click on the <Strong>Files/Projects</Strong> menu and under the box that says <Strong> Autosave</Strong> click checkbox labeled <strong>enable</strong>.
-    <p><img alt="project" src="../images/introduction-to-maya/img_002_project.png" /></p>
+    <p><img alt="Autosave" src="mark-craig.github.io\3D Modeling and Animation\Images\autosave.png" /></p>
     <h2 id="interface">Interface</h2>
     <p>Now that you've created a project, it's time to introduce you to Maya's interface. It may look really complicated at first, but don't worry! This tutorial should give you a good overview of what everything is. </p>
-    <h3 id="drop-down_menu">Drop-down menu</h3>
+    <h3 id="dropdown">Drop-down menu</h3>
     <p><img alt="dropdown" src="../images/introduction-to-maya/img_001_dropdown.png" /></p>
     <p>Depending on what you're trying to do at the moment, the drop-down menu gives you access to different options based on your selections.  Try a few different options, and notice how the top bar changes based on each selection.<br />
     </p>
@@ -77,11 +84,11 @@
     <p>Going through the top bar menus, you may notice that there are little boxes next to some of the text. <strong>These option boxes are very important</strong>. These option boxes allow you to tweak the settings on your selection.<br />
     </p>
     <p><img alt="option boxes" src="../images/introduction-to-maya/img_004_optionboxes.png" /></p>
-    <h3 id="the_shelf">The Shelf</h3>
+    <h3 id="shelf">The Shelf</h3>
     <p><img alt="shelf" src="../images/introduction-to-maya/img_005_shelf.png" /></p>
     <p>Having to go through several menus to get to an action you often use isn't very efficient.  The shelf contains <strong>shelf icons</strong> that allow quick access to often used actions.  The only drawback to using the shelf, compared to the menu selection method, is that you do not have access to the option box.  However, for actions where the option box isn't required, using the shelf will save you valuable time.</p>
     <p>If you can't see the shelf tabs (as shown in the picture), click the small black triangle to the left of the shelf and select the <strong>Shelf Tabs</strong> option. </p>
-    <h3 id="the_toolbox">The Toolbox</h3>
+    <h3 id="toolbox">The Toolbox</h3>
     <p><img alt="toolbox" src="../images/introduction-to-maya/img_006_toolbox.png" /></p>
     <p>To the left, you have your basic Tool Box for Maya. These tools are a few of the most frequently used actions in Maya.  Hovering over each icon gives you a description of what they do.  The last icon in the column will always be your <strong>last used tool</strong>.</p>
     <h2 id="creating_and_manipulating_objects">Creating and Manipulating Objects</h2>
