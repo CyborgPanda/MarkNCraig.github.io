@@ -1,0 +1,8 @@
+pygments: true
+permalink: /public-float-artmajor.github.io/:year/:month/:day/:title
+baseurl: /public-float-artmajor.github.io
+markdown: rdiscount
+exclude: ['.git']
+name: "Ryan Davis Portfolio"
+description: "yay"
+url: ryanin3d.me
