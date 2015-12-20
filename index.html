@@ -13,6 +13,9 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+    <!-- Lightbox -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.css" rel="stylesheet">
+
   </head>
   <body>
   <!-- Fixed navbar -->
@@ -40,31 +43,82 @@
 
   <!-- 'About' content starts here -->
 <div class="jumbotron" id='about'>
+<p></p>
+<p></p>
   <div class="container">
-    <img src="img/profile.jpg" align='right' width=30%>
-    <h1>Hi, I'm Mark.</h1>
-    <p>I love programming, and I study Computer Science at UC Berkeley.</p> 
-    <p>I am also proficient as a 3D artist; I specialize in Modeling, Shading, and Rigging.</p>
-    <p>You can see examples of my work using the links at the top.</p>
-    <p>Thanks for stopping by :)</p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Download my Resume</a></p>
+    <div class="row">
+      <div class='col-sm-6'>
+        <h1>Hi, I'm Mark.</h1>
+        <p>I love programming, and I study Computer Science at UC Berkeley.</p> 
+        <p>I am also proficient as a 3D artist; I specialize in Modeling, Shading, and Rigging.</p>
+        <p>You can see examples of my work using the links at the top.</p>
+        <p>Thanks for stopping by! :)</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Download my Resume</a></p>
+      </div>
+      <div class="col-sm-6">
+        <div class="container">
+          <a href="img/profile.jpg" data-lightbox="image-1" data-title="Unfortunately I'm on the left"><img src="img/profile.jpg" width=50%></a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-</body>
 
 <!-- 'Programming' content starts here -->
-<div class="jumbotron" id='programming'>
+<div id='programming'></div>
+<div class="jumbotron">
   <div class="container">
-    <h1> Programming Projects <h1>
-    <p> All the github links <p>
+    <div class="row">
+      <div class='col-sm-6'>
+        <h2>Automated Hollowing for 3D Scanned Models (Internship)</h2>
+        <p> During the summer of 2015, I worked at a startup called <a href="http://web.twindom.com/"> Twindom.</a><p>
+        <p> I built a system of scripts using various 3D packages that would take the model generated from the scan data, perform various repairs to the mesh, and hollow it by creating an encapsulated inner shell, cutting printing costs by ~90%.</p>
+        <p> In the image to the right, the inner shell is highlighted. The volume of the inner shell is the amount of printing material saved.
+      </div>
+      <div class='col-sm-6'>
+        <div class="container">
+          <a href="img/hollowing-demo.png" data-lightbox='image-2' data-title=""><img src="img/hollowing-demo.png"></a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class='col-sm-6'>
+        <h2>Ludum Dare Game Competition</h2>
+        <p>I made a simple game in less than 48 hours using Unity3D. This was my first time building a game as a solo project.</p>
+        <p>The themes for the competition were 'two buttons' and 'growing'.</p>
+        <p>The game can be played in a web browser using the Unity Web Player, but Chrome is unsupported.</p>
+        <p><a class="btn btn-primary btn-lg" href="programming/PlantSimulator/PlantSimulator.html" role="button">Play Web Version</a></p>
+        <p><a class="btn btn-success btn-lg" href="programming/PlantSimulator(Win32).zip" role="button">Download for Windows</a></p>
+        <p><a class="btn btn-info btn-lg" href="programming/PlantSimulator.zip" role="button">Download Source</a></p>
+      </div>
+      <div class='col-sm-6'>
+        <a href="img/plant-simulator-screenshot.jpg" data-lightbox='image-3' data-title="Screenshot taken from gameplay"><img src="img/plant-simulator-screenshot.jpg"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- 'Graphics' content starts here -->
 <div class="jumbotron" id='graphics'>
   <div class="container">
-    <h1> 3D Graphics and Art<h1>
-    <p> All the models <p>
+      <div class="row">
+        <div class='col-sm-6'>
+          <h2>Emily: Human Character for 3D Film</h2>
+          <p>This is an updated version of the model I created for the character of Emily in the Nightmare short film.</p>
+          <p>The concept art for the character was illustrated by Ryan Davis and can be found <a href='http://ryanin3d.me/vizdev.html'>here</a> along with her other work.</p>
+        </div>   
+        <div class='col-sm-6'>
+          <iframe width="640" height="480" src="https://sketchfab.com/models/89c2c0d17cb649deb4837b1c3091df0b/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe><p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+              <a href="https://sketchfab.com/models/89c2c0d17cb649deb4837b1c3091df0b?utm_source=oembed&utm_medium=embed&utm_campaign=89c2c0d17cb649deb4837b1c3091df0b" target="_blank" style="font-weight: bold; color: #1CAAD9;">Hailey- Sketchfab</a>
+              by <a href="https://sketchfab.com/markcraig?utm_source=oembed&utm_medium=embed&utm_campaign=89c2c0d17cb649deb4837b1c3091df0b" target="_blank" style="font-weight: bold; color: #1CAAD9;">markcraig</a>
+              on <a href="https://sketchfab.com?utm_source=oembed&utm_medium=embed&utm_campaign=89c2c0d17cb649deb4837b1c3091df0b" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p>
+        </div>
+    </div>
   </div>
 </div>
 
@@ -76,11 +130,11 @@
   </div>
 </div>
 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Script that toggles 'active' state of navbar links -->
 <script>
 $(".nav a").on("click", function(){
@@ -97,4 +151,7 @@ $('a').click(function(){
     return false;
 });
 </script>
+<!-- Lightbox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.js"></script>
+</body>
 </html>
